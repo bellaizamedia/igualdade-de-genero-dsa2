@@ -1,0 +1,263 @@
+.body_home{
+    background-color: #000000;
+}
+
+.header_homepage{
+    background-color: #16012c;
+    margin-top: -15px;
+    color:#ffffff;
+    box-shadow: 0px 22px 299px 200px rgba(22,1,44,1);
+    display:flow-root
+}
+
+.img_logo_header{
+    float: left;
+}
+
+.ferramentas_de_busca_homepage{
+    text-align: right;
+    float: right;
+    display: flex;
+    margin-top: 35px;
+    font-family: monospace;
+    font-size: 20px;
+    margin-right: 5%;
+}
+
+.vr{
+    width: 2px;
+    height: 30px;
+    background-color: #ffffff;
+    margin-left:20px ;
+    margin-right: 20px;
+}
+
+#logohomelink{
+    width: 220px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.divigualdadelink{
+
+    float: right;
+}
+
+#igualdadelink{
+    color:#ffffff;
+    text-decoration: none;
+    margin-top: 35px;
+}
+
+#igualdadelink:hover{
+    color:#01f2eb;
+}
+
+#whoareuslink{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+#whoareuslink:hover{
+    color:#ff0050;
+}
+
+#talktouslink{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+#talktouslink:hover{
+    color:#01f2eb;
+}
+
+#fotoredehome{
+    width: 28px;
+    border-radius: 50px;
+}
+
+#fotoredehome:hover{
+    border: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#redelinkhome{
+    text-decoration: none;
+}
+
+.resumoshome{
+    display: flex;
+}
+
+
+
+
+
+
+#linksobrenoscard{
+    color:#000000;
+    text-decoration: none;
+}
+
+.subtextohome{
+    color:#ffffff;
+    width: 40%;
+    float: right;
+    margin-top: -370px;
+    margin-right: 6%;
+    font-family: monospace;
+}
+
+#contresumo1{
+    font-family: monospace;
+    color: #ffffff;
+}
+
+#contresumo2{
+    font-family: monospace;
+}
+
+.footergeral{
+    background-color: #101010;
+    margin: -8px;
+    padding:30px ;
+    display: flex;
+}
+
+#imgfooter{
+    width: 80px;
+    padding-bottom: 50px;
+}
+
+#linkcontatofooter{
+    color:#c0c0c0;
+    font-family: monospace;
+    text-decoration: none;
+    font-size:70%;
+    width: 30px;
+}
+
+.contatofooter{
+    margin-top: -50px;
+}
+
+#linkcontatofooter:hover{
+    text-decoration:underline;
+    text-decoration-color: #ffffff;
+}
+
+#itensfooter{
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
+
+.divisaodofooter1{
+    text-align:center;
+}
+
+.divisaodofooter2{
+    padding-left: 80px;
+    margin-top: 0px;
+}
+
+.ul1{
+    color:#c0c0c0;
+    font-size: 15px;
+}
+
+#ol1{
+    color:#ffffff;
+    font-size: 50%;
+}
+
+#ol1:hover{
+    color:#000000;
+}
+
+#itensfooter2{
+    font-family:monospace;
+    color:#ffffff;
+    font-family:monospace;
+    font-size: 20px;
+}
+
+.profediscfooter{
+    margin-top: 40px;
+    margin-left:30px;
+    font-family: monospace;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.origemdotrabalho{
+    display:flex;
+    text-align: center;
+    background-color: #090909;
+    padding-left:20px ;
+    padding-right:20px;
+    border-radius: 20px;
+}
+
+.integrantesdiv{
+    text-align: left;
+}
+
+
+
+.resumo1{
+    background-color: #ff0050;
+    margin:100px;
+    margin-top: 60px;
+    padding: 40px;
+    border-radius: 40px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    box-shadow: -34px 34px 0px -17px rgba(255,255,255,1);
+    line-height: 25px;
+}
+
+.resumo1:hover{
+    box-shadow: 10px -25px 0px 1px #ffffff;
+    background-color: rgba(0,242,234,1);
+    color: #000000;
+}
+
+.resumo2{
+    background-color: #01f2eb;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    padding: 40px;
+    width: 40%;
+    border-radius: 40px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    color:#000000;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: -34px 34px 0px -17px rgba(255,255,255,1);
+    line-height: 23px;
+}
+.img-genero{
+    border-style: solid; 
+    border-color: #ffffff; 
+    border-width: 5px; 
+    width: 100%;
+}
+.resumo2:hover{
+    box-shadow: 10px -25px 0px 1px #ffffff;
+    background-color: rgba(255,0,80,1);
+}
+
+#pagenda{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+}
+
+#btnagenda{
+    color: #000000;
+    text-decoration: none;
+}
