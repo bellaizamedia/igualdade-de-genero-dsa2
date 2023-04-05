@@ -52,6 +52,14 @@
 #igualdadelink:hover{
     color:#01f2eb;
 }
+#sustentabilidadelink{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+#sustentabilidadelink:hover{
+    color:#ff0050;
+}
 
 #whoareuslink{
     color:#ffffff;
