@@ -1,1 +1,95 @@
+body_home{
+    background-color: #000000;
+}
 
+.header_homepage{
+    background-color: #16012c;
+    margin-top: -15px;
+    color:#ffffff;
+    box-shadow: 0px 22px 299px 200px rgba(22,1,44,1);
+    display: flow-root;
+}
+
+.img_logo_header{
+    float: left;
+}
+
+.ferramentas_de_busca_homepage{
+    text-align: right;
+    float: right;
+    display: flex;
+    margin-top: 35px;
+    font-family: monospace;
+    font-size: 20px;
+    margin-right: 5%;
+}
+
+.vr{
+    width: 2px;
+    height: 30px;
+    background-color: #ffffff;
+    margin-left:20px ;
+    margin-right: 20px;
+}
+
+#logohomelink{
+    width: 220px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.divigualdadelink{
+
+    float: right;
+}
+
+#igualdadelink{
+    color:#ffffff;
+    text-decoration: none;
+    margin-top: 35px;
+}
+
+#igualdadelink:hover{
+    color:#01f2eb;
+}
+#sustentabilidadelink{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+#sustentabilidadelink:hover{
+    color:#ff0050;
+}
+
+#whoareuslink{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+#whoareuslink:hover{
+    color:#ff0050;
+}
+
+#talktouslink{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+#talktouslink:hover{
+    color:#01f2eb;
+}
+
+#fotoredehome{
+    width: 28px;
+    border-radius: 50px;
+}
+
+#fotoredehome:hover{
+    border: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#redelinkhome{
+    text-decoration: none;
+}
