@@ -173,3 +173,39 @@ li{
 .integrantesdiv{
     text-align: left;
 }
+
+#pdfinicial{
+    color:#ffffff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-weight: bold;
+    background-color: #ff0050;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    font-size: 120%;
+}
+
+#pdfinicial:hover{
+    color:#000000;
+    background-color: #01f2eb;
+}
+
+.pdfdiv{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#textinicial{
+    color:#fff;
+    font-family:monospace;
+    margin-bottom: 50px;
+}
+
+hr{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
