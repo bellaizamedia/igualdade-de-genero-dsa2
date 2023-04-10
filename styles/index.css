@@ -235,8 +235,21 @@ li{
 }
 
 #pdfcookies{
-    width: 600px;
-    height: 600px;
+    color:#ffffff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-weight: bold;
+    background-color: #ff0050;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    font-size: 120%;
+}
+
+#pdfcookies:hover{
+    color:#000000;
+    background-color: #01f2eb;
 }
 
 .pdfdiv{
