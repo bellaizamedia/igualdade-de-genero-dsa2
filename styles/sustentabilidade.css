@@ -209,3 +209,12 @@ hr{
     margin-right: 100px;
 }
 
+.imagem-lateral {
+    position: relative, fixed; 
+    top: 50; 
+    left: 0;
+    margin-left: -0.7%;
+    width: 30%;
+    height: 40%;
+    z-index: none; 
+}
