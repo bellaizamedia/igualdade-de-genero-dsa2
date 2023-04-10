@@ -233,3 +233,25 @@ li{
 .integrantesdiv{
     text-align: left;
 }
+
+#pdfcookies{
+    width: 600px;
+    height: 600px;
+}
+
+.pdfdiv{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#textcookies{
+    color:#fff;
+    font-family:monospace;
+    margin-bottom: 50px;
+}
+
+hr{
+    margin-left: 100px;
+    margin-right: 100px;
+}
