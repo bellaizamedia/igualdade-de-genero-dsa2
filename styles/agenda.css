@@ -90,7 +90,10 @@
     display: flex;
 }
 
-
+#titulodiv{
+    width: 100%;
+    line-height: 110%;
+}
 
 
 
@@ -209,6 +212,7 @@
 .resumo1{
     background-color: #ff0050;
     margin:100px;
+    float: right;
     margin-top: 60px;
     padding: 40px;
     border-radius: 40px;
@@ -230,10 +234,10 @@
 .resumo2{
     background-color: #01f2eb;
     margin-top: 100px;
-    margin-bottom: 300px;
-    margin-left: 200px;
+    margin-bottom: 800px;
+    margin-left: 80px;
     padding: 40px;
-    width: 40%;
+    width: 50%;
     border-radius: 40px;
     border-top-right-radius: 0;
     border-bottom-left-radius: 0;
