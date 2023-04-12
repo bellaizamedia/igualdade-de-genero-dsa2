@@ -1,3 +1,4 @@
+/* CSS padrão do site */
 .body_home{
     background-color: #000000;
 }
@@ -93,7 +94,10 @@
 #redelinkhome{
     text-decoration: none;
 }
+/* Fim do CSS padrão */
 
+
+/* Main */
 .resumo1{
     background-color: #ff0050;
     margin:100px;
@@ -156,6 +160,45 @@
 #contresumo2{
     font-family: monospace;
 }
+
+#pdfcookies{
+    color:#ffffff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-weight: bold;
+    background-color: #ff0050;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    font-size: 120%;
+}
+
+#pdfcookies:hover{
+    color:#000000;
+    background-color: #01f2eb;
+}
+
+.pdfdiv{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#textcookies{
+    color:#fff;
+    font-family:monospace;
+    margin-bottom: 50px;
+}
+
+hr{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Fim - Main */
+
+/* Footer */
 
 .footergeral{
     background-color: #101010;
@@ -234,37 +277,4 @@ li{
     text-align: left;
 }
 
-#pdfcookies{
-    color:#ffffff;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;;
-    font-weight: bold;
-    background-color: #ff0050;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 25px;
-    font-size: 120%;
-}
-
-#pdfcookies:hover{
-    color:#000000;
-    background-color: #01f2eb;
-}
-
-.pdfdiv{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-#textcookies{
-    color:#fff;
-    font-family:monospace;
-    margin-bottom: 50px;
-}
-
-hr{
-    margin-left: 100px;
-    margin-right: 100px;
-}
+/* Fim - Footer */
