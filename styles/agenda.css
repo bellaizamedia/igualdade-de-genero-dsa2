@@ -95,16 +95,14 @@
 }
 
 .resumoshome{
-    display: grid;
+    display: flex;
 }
 
 #titulodiv{
     width: 100%;
     line-height: 110%;
+    text-align: center;
 }
-
-
-
 
 #linksobrenoscard{
     color:#000000;
@@ -215,13 +213,13 @@
     text-align: left;
 }
 
-
-
 .resumo1{
     background-color: #ff0050;
     margin:100px;
     float: right;
-    margin-top: 60px;
+    margin-bottom: 770px;
+    margin-left: 5%;
+    margin-top: 10px;
     padding: 40px;
     border-radius: 40px;
     border-top-right-radius: 0;
@@ -242,10 +240,10 @@
 .resumo2{
     background-color: #01f2eb;
     margin-top: 10px;
-    margin-bottom: 20px;
-    margin-left: 80px;
+    margin-bottom: 700px;
+    margin-left: 50px;
     padding: 40px;
-    width: 50%;
+    width: 40%;
     border-radius: 40px;
     border-top-right-radius: 0;
     border-bottom-left-radius: 0;
@@ -253,6 +251,7 @@
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: -34px 34px 0px -17px rgba(255,255,255,1);
     line-height: 200%;
+    
 }
 .resumo2:hover{
     box-shadow: 10px -25px 0px 1px #ffffff;
@@ -260,11 +259,11 @@
 }
 .resumo3{
     background-color: #01f2eb;
-    margin-top: 10px;
+    margin-top: -600px;
     margin-bottom: 20px;
     margin-left: 80px;
     padding: 40px;
-    width: 50%;
+    width: 87%;
     border-radius: 40px;
     border-top-right-radius: 0;
     border-bottom-left-radius: 0;
@@ -306,6 +305,7 @@ a-metas:active{
     color: #000000;
 }
 
-li{
-    margin-bottom: 30px;
+.ollista{
+       line-height: 200%;
 }
+
