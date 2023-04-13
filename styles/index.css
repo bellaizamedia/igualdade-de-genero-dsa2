@@ -238,6 +238,32 @@ hr{
     font-size: 200%;
 }
 
+.lastimg{
+    text-align: center;
+}
+
+#idlastimg{
+    width: 100%;
+}
+
+#linknotexto1{
+    color:#01f2eb;
+    text-decoration: none;
+}
+
+#linknotexto1:hover{
+    color:#ff0050;
+}
+
+#linknotexto{
+    color:#ff0050;
+    text-decoration: none;
+}
+
+#linknotexto:hover{
+    color:#01f2eb;
+}
+
 /* Footer */
 
 .footergeral{
