@@ -198,6 +198,46 @@ hr{
 
 /* Fim - Main */
 
+#img1home{
+    width: 100%;
+}
+
+.textosdaizabella{
+    color:#ffffff;
+    margin:10%;
+    font-family: helvetica;
+    line-height: 200%;
+}
+
+.containerblocks{
+    display: flex;
+    width: 100%;
+}
+
+.img-fluid{
+    width: 100%;
+}
+
+.onulinks{
+    margin:5%;
+}
+
+.bloco{
+    margin:1%
+}
+
+.bloco:hover{
+    width: 50%;
+    scroll-margin-left:10%;
+}
+
+.textoonu{
+    color:#ffffff;
+    font-family: monospace;
+    text-align: center;
+    font-size: 200%;
+}
+
 /* Footer */
 
 .footergeral{
