@@ -1,440 +1,469 @@
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
+    margin: 0;
+    padding: 0;
 }
 
-.body_faleconosco{
-  background-color: #000000;
-  color: white;
+.body_home{
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .header_homepage{
-  background-color: #16012c;
-  margin-top: -15px;
-  color:#ffffff;
-  box-shadow: 0px 22px 299px 200px rgba(22,1,44,1);
-  display:flow-root
+    background-color: #16012c;
+    margin-top: -15px;
+    color:#ffffff;
+    box-shadow: 0px 22px 299px 200px rgba(22,1,44,1);
+    display: flow-root;
 }
 
 .img_logo_header{
-  float: left;
+    float: left;
 }
 
 .ferramentas_de_busca_homepage{
-  text-align: right;
-  float: right;
-  display: flex;
-  margin-top: 35px;
-  font-family: monospace;
-  font-size: 20px;
-  margin-right: 5%;
+    text-align: right;
+    float: right;
+    display: flex;
+    margin-top: 35px;
+    font-family: monospace;
+    font-size: 20px;
+    margin-right: 5%;
 }
 
 .vr{
-  width: 2px;
-  height: 30px;
-  background-color: #ffffff;
-  margin-left:20px ;
-  margin-right: 20px;
+    width: 2px;
+    height: 30px;
+    background-color: #ffffff;
+    margin-left:20px ;
+    margin-right: 20px;
 }
 
 #logohomelink{
-  width: 220px;
-  margin-top: 20px;
-  margin-left: 5px;
+    width: 220px;
+    margin-top: 15px;
+    margin-left: 5px;
 }
 
 .divigualdadelink{
 
-  float: right;
+    float: right;
 }
 
 #igualdadelink{
-  color:#ffffff;
-  text-decoration: none;
-  margin-top: 35px;
+    color:#ffffff;
+    text-decoration: none;
+    margin-top: 35px;
 }
 
 #igualdadelink:hover{
-  color:#01f2eb;
+    color:#01f2eb;
+}
+#sustentabilidadelink{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+#sustentabilidadelink:hover{
+    color:#ff0050;
 }
 
 #whoareuslink{
-  color:#ffffff;
-  text-decoration: none;
+    color:#ffffff;
+    text-decoration: none;
 }
 
 #whoareuslink:hover{
-  color:#ff0050;
+    color:#ff0050;
 }
 
 #talktouslink{
-  color:#ffffff;
-  text-decoration: none;
+    color:#ffffff;
+    text-decoration: none;
 }
 
 #talktouslink:hover{
-  color:#01f2eb;
+    color:#01f2eb;
 }
 
 #fotoredehome{
-  width: 28px;
-  border-radius: 50px;
+    width: 28px;
+    border-radius: 50px;
 }
 
 #fotoredehome:hover{
-  border: #ffffff;
-  border-style: solid;
-  border-width: 2px;
+    border: #ffffff;
+    border-style: solid;
+    border-width: 2px;
 }
 
 #redelinkhome{
-  text-decoration: none;
+    text-decoration: none;
 }
+/* Fim do CSS padrão */
 
-h2 {
-  font-size: 30px;
+/* inicio do CSS fale conosco */
+
+.container {
+    background-image: linear-gradient(to top,#000000,rgba(22,1,44,1));
+    box-shadow: 0px 5px 40px rgb(38, 1, 77);
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+  }
   
-  text-align: center;
-  margin-top: 3%;
-}
-
-.container{
-  background-image: linear-gradient(to top,#000000,rgba(22,1,44,1));
-  box-shadow: 0px 5px 40px rgb(38, 1, 77);
-  box-sizing: border-box;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-  max-width: 100%;
-  height: 120vh;
-  position: relative;
-  left: 26%;
-}
-
-/* FORM */
-.form {
-  box-sizing: border-box;
-    padding: 20%;
-    margin-bottom: 2%;
+  .form {
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      width: 100%;
+      position: relative;
+      
+  }
+  
+  .form__titulo {
+      font-size: 2rem;
+      text-align: center;
   }
   
   .form-control {
-    margin-bottom: 3%;
-    position: relative;
+      margin-bottom: 3%;
+      position: relative;
+      display: flex;
+    }
+  
+    .form-control > input {
+      width: 40%;
+      border-radius: 10px;
+      border: none;
+      padding: 10px;
+      background: #514869;
+      font-size:1rem;
+      box-shadow: 0px 15px 40px #00000095;
+      outline: none;
+    }
+  
+    #firstname {
+      position: absolute;
+      margin-top: 5%;
+      margin-left: 5%;
+    }
+  
+    #label__firstname {
+      margin-left: 5%;
+      margin-top: 2%;
+    }
+  
+    #i__firstname {
+      position: absolute;
+      margin-top: 6.5%;
+      margin-left: 44%;
+      visibility: hidden;
+    }
+
+    #first__erro {
+        position: absolute;
+        margin-top: 10.5%;
+        margin-left: 30%;
+        visibility: hidden;
+    }
+
+    #lastname {
+        position: absolute;
+        margin-top: -2.5%;
+        margin-left: 53%;
+    }
+
+    #label__lastname {
+        position: absolute;
+        margin-top: -5.5%;
+        margin-left: 53%;
+    }
+
+    #i__lastname {
+        position: absolute;
+        margin-top: -1%;
+        margin-left: 91%;
+        visibility: hidden;
+    }
+
+    #last__erro {
+        position: absolute;
+        margin-top: 3%;
+        margin-left: 80%;
+        visibility: hidden;
+    }
+
+    #email {
+        position: absolute;
+        margin-top: 3.1%;
+        margin-left: 5%;
+    }
+
+    #label__email {
+        position: absolute;
+        margin-top: 0.2%;
+        margin-left: 5.5%;
+    }
+
+    #i__email {
+        position: absolute;
+        margin-top: 4.5%;
+        margin-left: 43%;
+        visibility: hidden;
+    }
+
+    #email__erro {
+        position: absolute;
+        margin-top: 8.5%;
+        margin-left: 30%;
+        visibility: hidden;
+    }
+
+    #tel {
+        position: absolute;
+        margin-top: 0%;
+        margin-left: 53.3%;
+    }
+
+    #label__tel {
+        position: absolute;
+        margin-top: -2.8%;
+        margin-left: 53.3%;
+    }
+
+    #i__tel {
+        position: absolute;
+        margin-top: 1.5%;
+        margin-left: 92%;
+        visibility: hidden;
+    }
+
+    #tel__erro {
+        position: absolute;
+        margin-top: 5.8%;
+        margin-left: 80%;
+        visibility: hidden;
+    }
+
+    #label__nov {
+        position: absolute;
+        margin-top: 3%;
+        margin-left: 38.5%;
+    }
+
+    #radio1 {
+        position: absolute;
+        margin-top: 6.8%;
+        margin-left: 45%;
+    }
+
+    #sim {
+        position: absolute;
+        margin-top: 6.5%;
+        margin-left: 41%;
+    }
+
+    #radio2 {
+        position: absolute;
+        margin-top: 6.8%;
+        margin-left: 56%;
+    }
+
+    #nao {
+        position: absolute;
+        margin-top: 6.5%;
+        margin-left: 52%;
+    }
+
+    #subject {
+        position: absolute;
+        margin-top: 11%;
+        margin-left: 30%;
+    }
+
+    #label__subject {
+        position: absolute;
+        margin-top: 8.5%;
+        margin-left: 31%;
+      }
+    
+      #i__subject {
+        position: absolute;
+        margin-top: 12%;
+        margin-left: 68%;
+        visibility: hidden;
+      }
+    
+      #subject__erro {
+        position: absolute;
+        margin-top: 15%;
+        margin-left: 31%;
+        visibility: hidden;
+      }
+
+      textarea {
+        width: 100%;
+      }
+
+      .button__enviar{
+        width: 90%;
+        padding: 16px 0px;
+        justify-content: center;
+        margin: 25px;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 3px;
+        color: #2b134b;
+        background: white;
+        cursor: pointer;
+        box-shadow: 0px 10px 40px -12px #f7eeffce;
+    }
+
+    #enviar{
+      
+  }
+
+            /* Error and Success */
+        .form-control.success input {
+          border-color: #2ecc71;
+        }
+
+        .form-control.error input {
+          border-color: #e74c3c;
+        }
+
+        .form-control.success i.fa-check-circle {
+          color: #2ecc71;
+          visibility: visible;
+        }
+
+        .form-control.error i.fa-exclamation-circle {
+          color: #e74c3c;
+          visibility: visible;
+        }
+
+        .form-control.error small {
+          visibility: visible;
+          color: #e74c3c;
+        }
+
+      /* inicio do link download */
+
+      
+#pdfcookies{
+    color:#ffffff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-weight: bold;
+    background-color: #ff0050;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    font-size: 120%;
+  }
+  
+  #pdfcookies:hover{
+    color:#000000;
+    background-color: #01f2eb;
+  }
+  
+  .pdfdiv{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  #textcookies{
+    color:#fff;
+    font-family:monospace;
+    margin-bottom: 50px;
+  }
+
+  /* inicio footer */
+
+  .footergeral{
+    background-color: #101010;
+    margin: -8px;
+    margin-top: 5%;
+    padding:30px ;
     display: flex;
   }
-
-
-  .form-control > input {
-    width: 50%;
-    border-radius: 10%;
-    border: none;
-    padding: 15px;
-    background: #514869;
-    font-size: 12pt;
-    box-shadow: 0% 15% 40% #00000095;
-    outline: none;
-    box-sizing: border-box;
+  
+  #imgfooter{
+    width: 80px;
+    padding-bottom: 50px;
   }
-
-  #firstname {
-    position: absolute;
-    margin-top: 10%;
-    right: 330px;
+  
+  #linkcontatofooter{
+    color:#c0c0c0;
+    font-family: monospace;
+    text-decoration: none;
+    font-size:70%;
+    width: 30px;
   }
-
-  #label_firstname {
-    position: absolute;
-    right: 595%;
-    margin-top: 7%;
+  
+  .contatofooter{
+    margin-top: -50px;
   }
-
-  #lastname {
-    position: absolute;
-    margin-top: 7%;
-    left: 320%;
+  
+  #linkcontatofooter:hover{
+    text-decoration:underline;
+    text-decoration-color: #ffffff;
   }
-
-  #label_lastname {
-    position: absolute;
-    left: 328%;
-    margin-top: 4%;
+  
+  #itensfooter{
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
   }
-
-  #i_firstname {
-    position: absolute;
-    margin-top: 13%;
-    left: 265%;
-    visibility: hidden;
+  
+  .divisaodofooter1{
+    text-align:center;
   }
-
-  #first_erro {
-    position: absolute;
-    margin-top: 17.8%;
-    left: -5%;
-    visibility: hidden;
+  
+  .divisaodofooter2{
+    padding-left: 80px;
+    margin-top: 0px;
+  }
+  
+  li{
+    color:#c0c0c0;
+    font-size: 15px;
+  }
+  
+  #itensfooter2{
+    font-family:monospace;
+    color:#ffffff;
+    font-family:monospace;
+    font-size: 20px;
+  }
+  
+  .profediscfooter{
+    margin-top: 40px;
+    margin-left:30px;
+    font-family: monospace;
+    font-weight: bolder;
+    text-align: left;
+  }
+  
+  .origemdotrabalho{
+    display:flex;
+    text-align: center;
+    background-color: #090909;
+    padding-left:20px ;
+    padding-right:20px;
+    border-radius: 20px;
+  }
+  
+  .integrantesdiv{
+    text-align: left;
+  }
     
-  }
-
-  #last_erro {
-    position: absolute;
-    left: 330%;
-    margin-top: 14.5%;
-    visibility: hidden;
-  }
-
-  #email_erro {
-    position: absolute;
-    margin-top: 26%;
-    visibility:hidden ;
-  }
-
-  #tel_erro {
-    position: absolute;
-    margin-top: 22.5%;
-    left: 335%;
-    visibility: hidden;
-  }
-
-  #i_lastname {
-    position: absolute;
-    right: 20px;
-    margin-top: 10%;
-    visibility: hidden;
-  }
-
-  #email {
-    position: absolute;
-    margin-top: 18%;
-    left: -15%;
-  }
-
-  #label_email {
-    position: absolute;
-    margin-top: 15%;
-    left: -5%;
-  }
-
-  #i_email {
-    position: absolute;
-    margin-top: 21%;
-    left: 270%;
-    visibility: hidden;
-  }
-
-  #tel {
-    position: absolute;
-    left: 320%;
-    margin-top: 15%;
-  }
-
-  #label_tel {
-    position: absolute;
-    left: 330%;
-    margin-top: 12%;
-  }
-
-  #i_tel {
-    position: absolute;
-    right: 8%;
-    margin-top: 18%;
-    visibility: hidden;
-  }
-
-  #label_nov {
-    position: absolute;
-    margin-top: 25%;
-    left: 205%;
-  }
-
-  #radio1 {
-    position: absolute;
-    margin-top: 33%;
-    left: 260%;
-  }
-
-  #sim {
-    position: absolute;
-    margin-top: 32.5%;
-    left: 230%;
-  }
-
-  #radio2 {
-    position: absolute;
-    margin-top: 32.8%;
-    left: 390%;
-  }
-
-  #nao {
-    position: absolute;
-    margin-top: 32.5%;
-    left: 358%;
-  }
-
-  #subject {
-    position: absolute;
-    margin-top: 43%;
-    left: 150%;
-  }
-
-  #label_subject {
-    position: absolute;
-    margin-top: 40%;
-    left: 160%;
-  }
-
-  #i_subject {
-    position: absolute;
-    margin-top: 46%;
-    left: 430%;
-    visibility: hidden;
-  }
-
-  #subject_erro {
-    position: absolute;
-    margin-top: 51%;
-    left: 160%;
-    visibility: hidden;
-  }
-
-
-textarea {
-    width: 630%;
-    margin-top: 35%;
-}
-
-#mensagem {
-    position: absolute;
-    top: 59%;
-}
-
-button{
-    width: 95%;
-    padding: 16% 0%;
-    justify-content: center;
-    margin: 25%;
-    margin-top: 5%;
-    border: none;
-    border-radius: 8%;
-    outline: none;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 3%;
-    color: #2b134b;
-    background: white;
-    cursor: pointer;
-    box-shadow: 0% 10% 40% -12% #f7eeffce;
-}
-
-/* Footer geral */
-.footergeral{
-  background-color: #101010;
-  margin: -8px;
-  margin-top: 5%;
-  padding:30px ;
-  display: flex;
-}
-
-#imgfooter{
-  width: 80px;
-  padding-bottom: 50px;
-}
-
-#linkcontatofooter{
-  color:#c0c0c0;
-  font-family: monospace;
-  text-decoration: none;
-  font-size:70%;
-  width: 30px;
-}
-
-.contatofooter{
-  margin-top: -50px;
-}
-
-#linkcontatofooter:hover{
-  text-decoration:underline;
-  text-decoration-color: #ffffff;
-}
-
-#itensfooter{
-  color:#ffffff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size:20px;
-}
-
-.divisaodofooter1{
-  text-align:center;
-}
-
-.divisaodofooter2{
-  padding-left: 80px;
-  margin-top: 0px;
-}
-
-li{
-  color:#c0c0c0;
-  font-size: 15px;
-}
-
-#itensfooter2{
-  font-family:monospace;
-  color:#ffffff;
-  font-family:monospace;
-  font-size: 20px;
-}
-
-.profediscfooter{
-  margin-top: 40px;
-  margin-left:30px;
-  font-family: monospace;
-  font-weight: bolder;
-  text-align: left;
-}
-
-.origemdotrabalho{
-  display:flex;
-  text-align: center;
-  background-color: #090909;
-  padding-left:20px ;
-  padding-right:20px;
-  border-radius: 20px;
-}
-
-.integrantesdiv{
-  text-align: left;
-}
-
-#pdfcookies{
-  color:#ffffff;
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;;
-  font-weight: bold;
-  background-color: #ff0050;
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 25px;
-  font-size: 120%;
-}
-
-#pdfcookies:hover{
-  color:#000000;
-  background-color: #01f2eb;
-}
-
-.pdfdiv{
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-#textcookies{
-  color:#fff;
-  font-family:monospace;
-  margin-bottom: 50px;
-}
