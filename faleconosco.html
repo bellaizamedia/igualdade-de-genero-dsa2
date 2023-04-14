@@ -4,6 +4,160 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Título</title>
-    <link href="./styles/faleconosco.css" rel="stylesheet">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="styles/faleconosco.css">
+    <script src="js/script.js"></script>
 </head>
+<body class="body_faleconosco">
+    <header class="header_homepage">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+            </style>
+        <!--logo / link-->
+        <div class="img_logo_header">
+          <a href="index.html">
+              <img src="assets/logopngbranco.png" id="logohomelink">
+          </a>
+      </div>
+      <!--fim da logo-->
+      <!--ferramentas de pesquisa-->
+      <div class="ferramentas_de_busca_homepage">
+          <div class="divigualdadelink">
+              <a id="igualdadelink" href="">IMPACTO SOCIAL</a>
+          </div>
+          <!--aquelas linhas verticais são feitas por uma div vazia e css-->
+          <div class="vr"></div>
+          <div class="whoareus">
+              <a href="" id="whoareuslink">QUEM SOMOS NÓS</a>
+          </div>
+          <div class="vr"></div>
+          <div class="talktous">
+              <a href="" id="talktouslink">FALE CONOSCO</a>
+          </div>
+          <div class="vr"></div>
+          <div class="redessociaishome">
+              <a id="redelinkhome" href="twitter.com">
+                  <img src="assets/twitterlogo.jpeg" id="fotoredehome">
+              </a>
+
+              <a href="instagram.com">
+                  <img src="assets/instalogo.png" id="fotoredehome">
+              </a>
+          </div>
+      </div>
+      <!--fim das ferramentas-->
+  </header>
+
+  <div class="container">
+    
+    <form id="form" class="form">
+
+        <h2>Fale Conosco</h2>
+        
+      <div class="form-control">
+        <label id="label_firstname" for="name">Nome</label>
+        <input type="text" id="firstname" placeholder="Digite seu first name..."/>
+        <i id="i_firstname" class="fas fa-exclamation-circle"></i>
+        <i  id="i_firstname" class="fas fa-check-circle"></i>
+        <small id="first_erro">Mensagem de erro</small>
+      </div>
+
+      <div class="form-control">
+        <label id="label_lastname" for="lastname">Sobrenome</label>
+        <input type="text" id="lastname" placeholder="Digite seu last name..."/>
+        <i id="i_lastname" class="fas fa-exclamation-circle"></i>
+        <i id="i_lastname" class="fas fa-check-circle"></i>
+        <small id="last_erro">Mensagem de erro</small>
+      </div>
+
+      <div class="form-control">
+        <label id="label_email" for="email">Email</label>
+        <input type="email" id="email" placeholder="Digite seu email.." />
+        <i id="i_email" class="fas fa-exclamation-circle"></i>
+        <i id="i_email" class="fas fa-check-circle"></i>
+        <small id="email_erro">Mensagem de erro</small>
+      </div>
+
+      <div class="form-control">
+        <label id="label_tel" for="tel">Telefono</label>
+        <input type="tel" id="tel" placeholder="Digite seu telefone..." />
+        <i id="i_tel" class="fas fa-exclamation-circle"></i>
+        <i id="i_tel" class="fas fa-check-circle"></i>
+        <small id="tel_erro">Mensagem de erro</small>
+      </div>
+
+      <div class="nov">
+        <label id="label_nov" for="nov">Deseja receber nossas novidades?</label>
+        <label id="sim" for="radio1">Sim</label>
+        <input type="radio"  name="novidades"  id="radio1">
+        <label id="nao" for="radio2">Não</label>
+        <input type="radio" name="novidades" id="radio2">
+      </div>
+
+      <div class="form-control">
+        <label id="label_subject" for="subject">Assunto</label>
+        <input type="text" id="subject" placeholder="Digite o assunto..." />
+        <i id="i_subject" class="fas fa-exclamation-circle"></i>
+        <i id="i_subject" class="fas fa-check-circle"></i>
+        <small id="subject_erro">Mensagem de erro</small>
+      </div> <br><br><br><br><br><br><br>
+
+      <div>  <label for="Mensagem" id="mensagem">Deixe sua mensagem</label></div>
+      
+      <div class="form-control">
+        
+        <textarea name="Mensagem"   id="textarea" cols="50" rows="10" maxlength="800"></textarea>
+      </div>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+  <hr>
+  <div class="pdfdiv">
+    <h1 id="textcookies">Política de privacidade</h1>
+    <a href="pdfs/cookies.pdf" download="pdfs/cookies.pdf" id="pdfcookies">Download do PDF</a>
+</div>
+
+<div class="pdfdiv">
+    <h1 id="textcookies">Política de gerenciamento de cookies</h1>
+    <a href="pdfs/Politica de privacidade.pdf" download="pdfs/Politica de privacidade.pdf" id="pdfcookies">Download do PDF</a>
+</div>
+
+  <footer class="footergeral">
+    <div class="divisaodofooter1">
+        <div class="divimgfooter">
+            <img id="imgfooter" src="assets/logosemfundo.png">
+        </div>
+        <div class="contatofooter">
+            <h1 id="itensfooter">Email de contato:<a href="mailto:soulskiencontato@gmail.com"  id="linkcontatofooter"><br> soulskiencontato@gmail.com</a></h1>
+        </div>
+    </div>
+    <div class="divisaodofooter2">
+        <div class="origemdotrabalho">
+            <div class="integrantesdiv">
+                <h1 id="itensfooter">Informações Técnicas:</h1>
+                <h2 id="itensfooter2">Integrantes:
+                    <li>Cauã Santana de Souza 02</li>
+                    <li>Gustavo Alves da Silva 07</li>
+                    <li>Gustavo Gomes Chaves 08</li>
+                    <li>Izabella da Silva Oliveira 09</li>
+                    <li>Leandro Afonso Niches 14</li>
+                    <li>Pedro Henrique de Souza Jeacomo 26</li>
+                    <li>Wellington Cavalcante Ferreira de Lima 33</li>
+                </h2>
+            </div>
+            <div class="profediscfooter">
+                <h2 id="itensfooter2">Professor(a)
+                    <li>Professora Marianne</li>
+                </h2>
+                <h2 id="itensfooter2">Disciplina
+                    <li>Desenvolvimento de Sistemas e Aplicações (DSA2)</li>
+                </h2>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  <script src="https://kit.fontawesome.com/904e1665cd.js" crossorigin="anonymous"></script>
+</body>
+</html>
