@@ -71,6 +71,14 @@
     color:#01f2eb;
 }
 
+#sustentabilidadelink{
+    color:#ffffff;
+    text-decoration: none;
+}
+#sustentabilidadelink:hover{
+    color:#ff0050;
+}
+
 #fotoredehome{
     width: 28px;
     border-radius: 50px;
