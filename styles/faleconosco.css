@@ -333,11 +333,6 @@
         cursor: pointer;
         box-shadow: 0px 10px 40px -12px #f7eeffce;
     }
-
-    #enviar{
-      
-  }
-
             /* Error and Success */
         .form-control.success input {
           border-color: #2ecc71;
